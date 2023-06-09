@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import Style from './BaseLayout.module.scss'
 import Navbar from "./Navbar";
 import Home from "./home/Home";
@@ -13,7 +13,7 @@ export default function BaseLayout() {
    function handleToggleDarkMode() {
       let oppositeOfCurrentDarkMode = !darkMode
       console.log(oppositeOfCurrentDarkMode)
-      localStorage.setItem('darkMode', `${oppositeOfCurrentDarkMode}`)
+      //localStorage.setItem('darkMode', `${oppositeOfCurrentDarkMode}`)
       setDarkMode(oppositeOfCurrentDarkMode)
    }
 
@@ -40,13 +40,6 @@ export default function BaseLayout() {
                   <Route exact path={'/about'} element={<About/>}/>
                   <Route exact path={'/portfolio'} element={<Portfolio/>}/>
                </Routes>
-            </Grid>
-            <Grid item>
-               <Box component={'footer'} display={'flex'} flexDirection={'column'} alignItems={'center'}
-                    py={'1.5rem'} sx={{opacity: 0.7}} width={'100%'}>
-                  <p>inspired by Payton Pierce</p>
-                  <p>&copy; 2023</p>
-               </Box>
             </Grid>
          </Grid>
       </Box>
