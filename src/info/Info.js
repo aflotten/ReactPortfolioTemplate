@@ -2,8 +2,7 @@ import self from "../img/self.png"
 import mock1 from "../img/mock1.png"
 import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -36,7 +35,7 @@ export const info = {
             text: 'powered by the sun'
         },
         {
-            emoji: '🌎',
+            emoji: '🤠',
             text: 'located in Calgary'
         },
         {
@@ -49,8 +48,6 @@ export const info = {
         }
     ],
     socials: [
-        
-    
         {
             link: "https://github.com/aflotten",
             icon: "fa fa-github",
@@ -73,8 +70,8 @@ export const info = {
     bio: "Hi there! I'm Anders. I am a recent graduate from Lighthouse Labs' coding bootcamp and looking to get into the tech industry. I have pivoted from a background in the sciences where I recieved a bachelors degree in Biology. My hobbies include hanging out with my puppy Bruce, weight lifting, and video games! Please feel free to reach out to me at anytime!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html', 'CSS', 'postgreSQL', 'nodeJS'],
-            exposedTo: ['nextJS', 'ruby on rails', 'prisma']
+            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html', 'CSS', 'postgreSQL', 'nodeJS', 'Axios', 'Express', 'Mocha/Chai', 'Cypress', 'SCSS'],
+            exposedTo: ['nextJS', 'ruby on rails', 'prisma', 'jest']
         }
     ,
     hobbies: [
@@ -103,34 +100,20 @@ export const info = {
     ],
     portfolio: [ // This is where your portfolio projects will be detailed
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            title: "LH-FIT",
+            
+            source: "https://github.com/Gozi1/LH-FIT", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Scheduler",
+            source: "https://github.com/aflotten/scheduler",
             image: mock2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Tweeter",
+            source: "https://github.com/aflotten/tweeter",
             image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
         }
     ]
 }
